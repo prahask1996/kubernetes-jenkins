@@ -31,7 +31,7 @@ Jenkins Kubernetes architecture
 
     Step 1: Create a Namespace for Jenkins. It is good to categorize all the devops tools as a separate namespace from other applications.
 
-kubectl create namespace devops-tools
+    kubectl create namespace devops-tools
     
     Step 2: Create a serviceAccount.yaml file and copy the following admin service account manifest.
 
